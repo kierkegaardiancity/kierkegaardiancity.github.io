@@ -1,0 +1,30 @@
+body{
+    background-image:url(background-image.png);
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+}
+.page{
+    display: block;
+    background-color: white;
+    padding: 60px;
+    margin: 30px;
+    font-size: normal;
+    background: white;
+}
+.text-essay{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:2em;
+    text-indent: 30px;
+}
+.block-quote{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    line-height: normal;
+    text-indent: 0%;
+}

@@ -1,0 +1,54 @@
+body{
+    background-image:url(background-image.png);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    display: block;
+    width: 90%;
+    height: 10%;
+}
+.contentbox{
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    font-family: monospace;
+    min-width: none;
+}
+.welcomeimage{
+    margin: auto;
+}
+.textwelcome{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 0px;
+    font-size: large;
+    text-align: center;
+}
+.essaythumbnail{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 15px;
+    font-size: normal;
+    text-align: center;
+}
+.page{
+    height: 2550px;
+    width: 3300px;
+    background-color: white;
+}
+.flex-grid {
+    display: flex;
+    min-width: none;
+}
+.col{
+    flex: 1;
+    min-width: none;
+  }
